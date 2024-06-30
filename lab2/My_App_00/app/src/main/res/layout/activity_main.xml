@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/acceptConnectionButton"
+        android:layout_width="115dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="20dp"
+        android:autoText="true"
+        android:onClick="acceptConnectionButtonOnClick"
+        android:text="ACCEPT CONNECTION"
+        android:textAlignment="viewStart"
+        android:textIsSelectable="false"
+        android:textSize="6sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <Button
+        android:id="@+id/closeConnectionButton"
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="20dp"
+        android:autoText="true"
+        android:onClick="closeConnectionButtonOnClick"
+        android:text="CLOSE CONNECTION"
+        android:textAlignment="gravity"
+        android:textIsSelectable="false"
+        android:textSize="6sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <Button
+        android:id="@+id/sendTextButton"
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="5dp"
+        android:autoText="true"
+        android:onClick="onClickConnectButton"
+        android:text="SEND"
+        android:textAlignment="gravity"
+        android:textIsSelectable="false"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <TextView
+        android:id="@+id/BT_Name_TextView"
+        android:layout_width="110dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:text="BT_Name_TextView"
+        android:textAlignment="viewStart"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/BT_ConnectionState_TextView"
+        android:layout_width="350dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="55dp"
+        android:text="BT_ConnectionState_TextView"
+        android:textAlignment="viewStart"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/receivedEditText"
+        android:layout_width="401dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="106dp"
+        android:layout_marginEnd="1dp"
+        android:text="ReceivedEditText"
+        android:textAlignment="viewStart"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/BT_MAC_TextView"
+        android:layout_width="290dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="1dp"
+        android:text="BT_MAC_TextView"
+        android:textAlignment="viewStart"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/sendTextEditText"
+        android:layout_width="388dp"
+        android:layout_height="230dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="417dp"
+        android:layout_marginEnd="1dp" />
+
+</RelativeLayout>
